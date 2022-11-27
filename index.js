@@ -71,10 +71,10 @@ clearInterval(myInterval);
 console.log(timer.innerText);// will get the current time
 const speed=demoQuote.split(" ").length/(timer.innerText/60); //typing speed in wpm(word per minute)
 console.log(speed);
-// speedCalculate(speed);
-// speedDisplay.innerText=`${speed}`;
 check=null;
-timer.innerText="0";
+timer.classList.add("size");
+timer.innerText=`Your typing Speed is ${(speed).toFixed(2)}wpm`;
+
 }
 }
 
