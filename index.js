@@ -73,7 +73,7 @@ const speed=demoQuote.split(" ").length/(timer.innerText/60); //typing speed in 
 console.log(speed);
 check=null;
 timer.classList.add("size");
-timer.innerText=`Your typing Speed is ${(speed).toFixed(2)}wpm`;
+timer.innerText=`Your typing Speed is   ${(speed).toFixed(2)} wpm`;
 
 }
 }
