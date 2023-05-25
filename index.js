@@ -11,7 +11,7 @@ const speedDisplay=document.querySelector(".speed_display");
 
 const demoQuote="we are going to test our typing speed and also practice dom to make this project";
 const paraCharArr=demoQuote.split("");
-console.log(paraCharArr);
+// console.log(paraCharArr);
 
 //----------------------------adding span tag to individual character of the string------------------------------
 
@@ -22,7 +22,7 @@ paraCharArr.forEach((char)=>{
     outerPara.appendChild(charSpan);
     
 })
-console.log(outerPara);
+// console.log(outerPara);
 const outerArr = outerPara.querySelectorAll("span");
 //------------------------------------adding eventlistner to inputcontainer----------------------------------------
 

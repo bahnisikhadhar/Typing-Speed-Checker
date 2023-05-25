@@ -5,7 +5,7 @@
 }
 
 body{
-    background:url("typingbck.jpeg");
+    background:url("typingbck.jpeg") center/cover no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
